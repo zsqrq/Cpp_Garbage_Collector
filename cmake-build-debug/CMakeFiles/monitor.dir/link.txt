@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/monitor.dir/main.cpp.o  -o monitor 

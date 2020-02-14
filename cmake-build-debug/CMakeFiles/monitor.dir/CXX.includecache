@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wz/CppND-Garbage-Collector/LeakTester.h
+cstdio
+-
+cstdlib
+-
+cstddef
+-
+cstring
+-
+exception
+-
+new
+-
+
+/home/wz/CppND-Garbage-Collector/gc_details.h
+
+/home/wz/CppND-Garbage-Collector/gc_iterator.h
+
+/home/wz/CppND-Garbage-Collector/gc_pointer.h
+iostream
+-
+list
+-
+typeinfo
+-
+cstdlib
+-
+gc_details.h
+/home/wz/CppND-Garbage-Collector/gc_details.h
+gc_iterator.h
+/home/wz/CppND-Garbage-Collector/gc_iterator.h
+
+/home/wz/CppND-Garbage-Collector/main.cpp
+gc_pointer.h
+/home/wz/CppND-Garbage-Collector/gc_pointer.h
+LeakTester.h
+/home/wz/CppND-Garbage-Collector/LeakTester.h
+
